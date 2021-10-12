@@ -1,5 +1,5 @@
 project "ImGui"
-    kind "StaticLibrary"
+    kind "StaticLib"
     language "C++"
 
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
